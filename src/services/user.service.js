@@ -15,7 +15,7 @@ export const newUser = async (body) => {
   return data;
 };
  */
-//create new user
+/* //create new user
 export const newUser = async (body) => {
   const checkuser = await User.findOne({email:body.email});
   if(checkuser){
@@ -29,7 +29,7 @@ export const newUser = async (body) => {
     return data;
   }
 };
-
+ */
 //update single user
 export const updateUser = async (_id, body) => {
   const data = await User.findByIdAndUpdate(
@@ -56,7 +56,7 @@ export const getUser = async (id) => {
   return data;
 };
 
-//loginuser
+ //loginuser
 export const loginuser=async (body)=>{
   const data= await User.findOne({email:body.email});
   //console.log("data------------------>",data);
@@ -74,10 +74,9 @@ export const loginuser=async (body)=>{
   }else{
     throw new Error("email is invalid");
   }
-};
+}; 
 
-
-//Reset password
+/* //Reset password
 export const ResetPassword = async (body) => {
   const saltRounds = 10;
   const hashPassword = await bcrypt.hash(body.password, saltRounds);
@@ -105,3 +104,4 @@ export const forgotPassword = async (body) => {
     throw new Error("Invalid Email ID");
   }
 };
+ */

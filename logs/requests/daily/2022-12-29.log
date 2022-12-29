@@ -42,3 +42,7 @@ info: ::ffff:127.0.0.1 - - [29/Dec/2022:12:44:23 +0000] "POST /api/v1/users/regi
 
 info: ::1 - - [29/Dec/2022:12:57:16 +0000] "PUT /api/v1/users/ResetPassword HTTP/1.1" 201 319 "-" "PostmanRuntime/7.30.0"
 
+info: ::ffff:127.0.0.1 - - [29/Dec/2022:15:04:36 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Dec/2022:15:04:36 +0000] "POST /api/v1/notes/add HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+

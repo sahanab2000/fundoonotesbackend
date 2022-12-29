@@ -1,8 +1,10 @@
-import { expect } from 'chai';
+/*  import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
 
 import app from '../../src/index';
+let noteid;
+let token;
 
 describe('User APIs Test', () => {
   before((done) => {
@@ -82,7 +84,7 @@ console.log("----------------------");
         .post('/api/v1/users/loginuser')
         .send(inputBody)
         .end((err, res) => {
-          //token = res.body.data;
+          token = res.body.data;
           expect(res.statusCode).to.be.equal(202);
         
 
@@ -109,6 +111,28 @@ console.log("----------------------");
 
     });
   });
-
+   
+   // 7 create new note 
+  describe('Addnote', () => {
+    const input = {
+      "Title": "BridgeLabz",
+      "descrption": "skill devoloping company",
+      "colour": "blue",
+      "isArchived": "false",
+      "isTrashed": "false"
+    }
+    it('Given new note should save in database', (done) => {
+      request(app)
+        .post('/api/v1/notes/create')
+        .set('Authorization', `Bearer ${token}`)
+        .send(input)
+        .end((err, res) => {
+          noteid = res.body.data._id;
+          expect(res.statusCode).to.be.equal(201);
+          done();
+        });
+    });
+  });
 });
 
+  */
