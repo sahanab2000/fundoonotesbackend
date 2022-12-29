@@ -76,7 +76,7 @@ export const loginuser=async (body)=>{
   }
 }; 
 
-/* //Reset password
+//Reset password
 export const ResetPassword = async (body) => {
   const saltRounds = 10;
   const hashPassword = await bcrypt.hash(body.password, saltRounds);
@@ -104,4 +104,4 @@ export const forgotPassword = async (body) => {
     throw new Error("Invalid Email ID");
   }
 };
- */
+ 
