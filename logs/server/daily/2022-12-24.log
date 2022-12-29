@@ -1,0 +1,541 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T02:39:32.745Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T02:39:32.775Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getAllUsers is not a function
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:12:37)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllnotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:42:09.737Z"}
+error: 
+    status - 500 
+    message - Error: email is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:73:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:45:18.814Z"}
+error: 
+    status - 500 
+    message - Error: email is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:73:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:45:25.932Z"}
+error: 
+    status - 500 
+    message - Error: email is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:73:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:47:11.862Z"}
+error: 
+    status - 500 
+    message - Error: email is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:73:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:54:44.295Z"}
+error: 
+    status - 500 
+    message - Error: email is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:73:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:55:21.626Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:63:32)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:56:10.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T02:56:52.728Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T02:56:52.766Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 110
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:57:38.927Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:66:23)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:57:45.302Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T02:58:59.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:00:12.855Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:00:12.885Z"}
+error: 
+    status - 500 
+    message - Error: User with same mailid Already exits
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:21:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:00:30.946Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:66:23)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:00:58.446Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:66:23)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:01:29.102Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:66:23)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:01:43.890Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getAllUsers is not a function
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:12:37)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllnotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:44:06.779Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.updatenotes is not a function
+    at _callee4$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:69:37)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updatenotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:67:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63a675c1a8aa9a4660286835 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:45:37.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:50:36.535Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:50:36.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:52:02.370Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:52:02.403Z"}
+error: 
+    status - 500 
+    message - Error: User with same mailid Already exits
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:21:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:52:06.489Z"}
+error: 
+    status - 500 
+    message - Error: User with same mailid Already exits
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:21:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:52:25.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:53:46.226Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:53:46.273Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.newUser is not a function
+    at _callee3$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:53:46.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:54:02.301Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:54:02.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:54:35.114Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:54:35.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T03:54:59.884Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T03:54:59.914Z"}
+error: 
+    status - 500 
+    message - Error: User with same mailid Already exits
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:21:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:55:58.051Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:66:23)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-24T03:57:45.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T04:02:49.377Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T04:02:49.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T04:05:07.548Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T04:05:07.588Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.getAllUsers is not a function
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:12:37)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllnotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:14:57.748Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getnotes" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:16:26.010Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getallnotes" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getallnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:16:34.117Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "gettalk" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/gettalk 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:16:47.708Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getnotes" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:17:38.803Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getallnotes" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getallnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:17:45.687Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllnotes" (type string) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getAllnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-24T04:18:34.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T07:22:56.644Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T07:22:56.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T07:40:25.323Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T07:40:25.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T07:41:02.210Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T07:41:02.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-24T07:41:18.467Z"}
+info: Connected to the database. {"timestamp":"2022-12-24T07:41:18.518Z"}

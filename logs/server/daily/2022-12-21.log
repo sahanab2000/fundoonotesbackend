@@ -1,0 +1,571 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:33:57.677Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T02:34:01.271Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:47:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:34:13.175Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid email
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:52:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:34:23.956Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:47:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:37:58.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:42:18.693Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:42:40.055Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-12-21T02:42:48.713Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:43:10.483Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:45:01.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:45:36.733Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Sahana\\Desktop\\Fundoonote\\Fundoonote\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-12-21T02:46:06.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:48:18.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:48:31.122Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T02:48:33.929Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:47:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:49:07.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:51:57.584Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T02:52:00.890Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:47:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:52:35.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:54:50.446Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T02:54:53.463Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:48:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T02:55:04.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T02:58:16.768Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T02:58:21.910Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:06:19.062Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:48:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:06:36.591Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:07:04.876Z"}
+error: 
+    status - 500 
+    message - Error: Please enter valid password
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:48:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:08:36.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T03:13:48.483Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T03:13:52.763Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:13:56.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T03:14:15.384Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:14:20.472Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T03:14:20.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T03:14:45.083Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T03:14:49.703Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T03:15:00.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T03:23:56.444Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T03:24:00.312Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T04:33:55.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T04:35:35.971Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T04:35:39.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T04:36:15.525Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T04:36:20.582Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T04:36:30.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T04:37:06.088Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T04:37:09.690Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:43:38)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T04:37:13.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T04:42:18.814Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T04:42:21.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T04:42:33.307Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T04:42:35.990Z"}
+error: 
+    status - 500 
+    message - Error: Invalid  email
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:52:12)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T04:42:55.987Z"}
+error: 
+    status - 500 
+    message - Error: Password is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:49:14)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T04:43:05.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T08:55:06.401Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2022-12-21T08:55:06.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:31:23.499Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:31:33.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:33:27.159Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:33:30.693Z"}
+error: 
+    status - 500 
+    message - Error: Password is invalid
+    at _callee7$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:64:14)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T09:33:31.728Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T09:35:02.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:38:32.357Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.newUser is not a function
+    at _callee3$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/user.controller.js:50:36)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/user.controller.js:48:21)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T09:38:33.973Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:38:38.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:41:26.272Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:41:30.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:42:16.627Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:42:23.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:42:48.249Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:42:51.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:48:04.302Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:48:07.503Z"}
+error: 
+    status - 500 
+    message - Error: EmailId Already Exist 
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:13:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T09:48:21.179Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T09:50:36.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T09:52:22.852Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T09:52:25.895Z"}
+error: 
+    status - 500 
+    message - Error: EmailId Already Exist 
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:14:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T10:14:09.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T10:28:46.189Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T10:28:53.345Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T10:29:22.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T10:31:25.334Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T10:31:28.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T10:32:45.707Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T10:32:49.077Z"}
+error: 
+    status - 500 
+    message - ReferenceError: searchResult is not defined
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:16:13)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T10:32:55.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T10:33:17.805Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T10:33:20.916Z"}
+error: 
+    status - 500 
+    message - Error: EmailId Already Exist 
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:18:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T10:33:26.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T10:33:40.059Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T10:33:43.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T11:08:23.565Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T11:08:32.211Z"}
+error: 
+    status - 500 
+    message - Error: EmailId Already Exist 
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:18:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T11:22:18.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-21T11:35:10.734Z"}
+info: Connected to the database. {"timestamp":"2022-12-21T11:35:14.245Z"}
+error: 
+    status - 500 
+    message - Error: EmailId Already Exist 
+    at _callee2$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:18:11)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T11:35:22.035Z"}
+error: 
+    status - 500 
+    message - Error:  Email is Invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:67:12)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T11:35:56.753Z"}
+error: 
+    status - 500 
+    message - Error: Password is invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:64:14)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T11:36:05.267Z"}
+error: 
+    status - 500 
+    message - Error:  Email is Invalid
+    at _callee6$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\services\/user.service.js:67:12)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-21T11:36:15.169Z"}

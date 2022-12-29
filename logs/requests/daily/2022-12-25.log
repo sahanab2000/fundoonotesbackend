@@ -1,0 +1,24 @@
+info: ::1 - - [25/Dec/2022:17:05:48 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 300 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:06:58 +0000] "PUT /api/v1/notes/63a882ec72b17450a43382fd HTTP/1.1" 500 77 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:08:24 +0000] "PUT /api/v1/notes/63a882ec72b17450a43382fd HTTP/1.1" 202 301 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:09:00 +0000] "DELETE /api/v1/notes/63a882ec72b17450a43382fd HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:17:34 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:17:53 +0000] "GET /api/v1/users HTTP/1.1" 200 3971 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:18:22 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 200 243 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:18:54 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 200 243 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:20:17 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:20:40 +0000] "PUT /api/v1/notes/63a88651b4517f2780671a80 HTTP/1.1" 202 300 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:20:48 +0000] "DELETE /api/v1/notes/63a88651b4517f2780671a80 HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Dec/2022:17:23:59 +0000] "DELETE /api/v1/notes/63a88651b4517f2780671a80 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.30.0"
+

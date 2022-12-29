@@ -1,0 +1,2 @@
+info: ::1 - - [22/Dec/2022:11:23:45 +0000] "POST /api/v1/users/loginuser HTTP/1.1" 500 96 "-" "PostmanRuntime/7.30.0"
+

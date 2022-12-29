@@ -1,0 +1,83 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-25T17:05:21.498Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:05:21.600Z"}
+error: 
+    status - 500 
+    message - TypeError: notesService.updatenotes is not a function
+    at _callee4$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:69:37)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updatenotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:67:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21) 
+    url - /api/v1/notes/63a882ec72b17450a43382fd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:06:58.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-25T17:08:19.755Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:08:19.822Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee5$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:86:49)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deletenotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:86:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63a882ec72b17450a43382fd 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:09:00.239Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee5$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:86:49)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deletenotes (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\controllers\/notes.controller.js:86:25)
+    at Layer.handle [as handle_request] (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63a88651b4517f2780671a80 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-12-25T17:20:48.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-25T17:23:12.307Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:23:12.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-25T17:23:57.732Z"}
+info: Connected to the database. {"timestamp":"2022-12-25T17:23:57.758Z"}

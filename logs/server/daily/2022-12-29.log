@@ -1,0 +1,192 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:34:20.201Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:34:25.249Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:34:30.303Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:45:08.652Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:45:13.693Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:45:18.759Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:47:26.490Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:47:31.595Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:47:36.590Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:53:42.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:53:47.434Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:53:52.477Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:55:25.812Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:55:35.861Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:55:35.904Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T02:57:25.420Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:57:35.473Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T02:57:35.554Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T03:01:20.747Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T03:01:20.874Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T03:01:30.870Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T03:01:31.024Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7) 
+    url - /api/v1/users/loginuser 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T03:01:31.031Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T03:02:55.986Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T03:02:56.109Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T08:54:28.663Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T08:54:28.843Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T10:17:03.552Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T10:17:03.740Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T10:19:55.608Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T10:19:55.726Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T11:54:01.717Z"}
+info: Connected to the database. {"timestamp":"2022-12-29T11:54:01.770Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T12:44:03.493Z"}
+info: Connected to the database. {"timestamp":"2022-12-29T12:44:03.540Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T12:44:23.791Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 2 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-12-29T12:44:23.892Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-12-29T12:57:12.650Z"}
+info: Connected to the database. {"timestamp":"2022-12-29T12:57:12.676Z"}
