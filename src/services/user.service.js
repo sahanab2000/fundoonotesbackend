@@ -15,7 +15,7 @@ export const newUser = async (body) => {
   return data;
 };
  */
-/* //create new user
+ //create new user
 export const newUser = async (body) => {
   const checkuser = await User.findOne({email:body.email});
   if(checkuser){
@@ -29,7 +29,7 @@ export const newUser = async (body) => {
     return data;
   }
 };
- */
+ 
 //update single user
 export const updateUser = async (_id, body) => {
   const data = await User.findByIdAndUpdate(

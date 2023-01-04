@@ -1,0 +1,340 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T10:52:01.612Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T10:52:01.801Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T10:52:01.853Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T10:52:01.880Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T10:52:01.912Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T10:52:01.934Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T10:52:01.960Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T10:52:18.956Z"}
+info: Connected to the database. {"timestamp":"2023-01-03T10:52:19.026Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T10:54:46.811Z"}
+info: Connected to the database. {"timestamp":"2023-01-03T10:54:46.863Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T10:59:22.403Z"}
+info: Connected to the database. {"timestamp":"2023-01-03T10:59:22.432Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:04:13.188Z"}
+info: Connected to the database. {"timestamp":"2023-01-03T11:04:13.218Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:04:29.682Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:04:29.863Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:04:29.928Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:04:29.955Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T11:04:29.970Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:04:29.984Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:04:30.002Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:06:06.281Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:06:06.504Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:06:06.547Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:06:06.573Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T11:06:06.591Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:06:06.610Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:06:06.629Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:07:07.594Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:07:07.732Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:07:07.783Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:07:07.810Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T11:07:07.831Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:07:07.849Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:07:07.872Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:18:08.959Z"}
+info: Connected to the database. {"timestamp":"2023-01-03T11:18:09.021Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:18:18.513Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:18:18.680Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:18:18.743Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:18:18.765Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T11:18:18.790Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:18:18.814Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:18:18.843Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-01-03T11:19:12.564Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:19:12.738Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:19:12.798Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:19:12.823Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/undefined 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-01-03T11:19:12.849Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/archive 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:19:12.871Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "notes"
+    at model.Query.exec (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Sahana\Desktop\Fundoonote\Fundoonote\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/undefined/trash 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-01-03T11:19:12.891Z"}

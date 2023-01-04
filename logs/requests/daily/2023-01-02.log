@@ -1,0 +1,476 @@
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:17:35 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:20:49 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:22:01 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:22:57 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:33:12 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [02/Jan/2023:03:39:58 +0000] "GET /api/v1/notes/create HTTP/1.1" 500 129 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Jan/2023:03:41:05 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 290 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Jan/2023:03:41:43 +0000] "GET /api/v1/notes HTTP/1.1" 500 77 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:42:23 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [02/Jan/2023:03:43:14 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 290 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:43:50 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [02/Jan/2023:03:45:53 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 289 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Jan/2023:03:46:18 +0000] "PUT /api/v1/notes/63b253716da10c6a340af469 HTTP/1.1" 202 290 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:46:42 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [02/Jan/2023:03:47:43 +0000] "DELETE /api/v1/notes/63b253716da10c6a340af469 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:49:33 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:53:38 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:54:07 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:55:27 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:56:11 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:58:33 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:03:59:48 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:04:00:39 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:04:01:12 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:07:48:33 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:07:53:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:07:54:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:07:59:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:00:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:00:59 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:03:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:03:08 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:03:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:03:43 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:06:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:07:20 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:08:43 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:11:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:11:04 +0000] "PUT /api/v1/note/undefined/trash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:13:07 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:13:07 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:15:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:15:57 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:19:36 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:19:36 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:21:01 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:21:01 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:28:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:28:13 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:30:22 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:30:23 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:32:10 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:32:10 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:34:18 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:34:19 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:43:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:43:13 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:45:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:45:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:45:33 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:46:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:46:59 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:51:36 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:51:36 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:52:42 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:52:42 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:53:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:53:52 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:54:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:54:50 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:14 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:14 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:14 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:14 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:56:52 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:58:48 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:58:48 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:58:48 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:58:49 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:08:58:49 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:00:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:00:52 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:00:53 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:00:53 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:00:53 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:04:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:04:30 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:04:30 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:04:30 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:04:30 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:32:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:32:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 96 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:33:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:33:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 96 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:33:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:35:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:35:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 96 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 96 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "POST /api/v1/note/create HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "PUT /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:52:49 +0000] "PUT /api/v1/note/undefined/trash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:27 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:27 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "POST /api/v1/note/create HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "PUT /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:09:58:28 +0000] "PUT /api/v1/note/undefined/trash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:00:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:02:16 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:03:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:04:45 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:06:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:06:05 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:06:05 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:06:05 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:06:05 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:12:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:14:25 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:14:25 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:15:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:15:06 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:15:35 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:15:35 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:15:35 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:06 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:06 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:29 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:29 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:29 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:51 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:51 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:51 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:16:51 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:06 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:06 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:06 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:32 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:32 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:32 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:32 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:32 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:47 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:47 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:47 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:17:47 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:23:36 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:23:36 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:23:36 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:23:36 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:23:36 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:24:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:24:56 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:24:56 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:24:56 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:24:56 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:25:31 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:34 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:30:47 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "GET /api/v1/note/allNote HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:43:32 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "GET /api/v1/note/allNote HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:31 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:53 +0000] "GET /api/v1/note/allNote HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:53 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:53 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:54 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:54 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:54 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:44:54 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:46:52 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:47:10 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [02/Jan/2023:10:49:45 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 143 "-" "node-superagent/3.8.3"
+

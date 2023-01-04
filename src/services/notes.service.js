@@ -40,3 +40,61 @@ export const getnotes = async (id) => {
   return data;
 };
 
+//archive note
+export const archivenote=async(_id)=>{
+  const data =await notes.findByIdAndUpdate(
+    {
+      _id
+    },
+    { isArchived:true },
+    {new: true}
+  );
+  return data;
+};
+
+//trash note 
+export const trashnote=async(_id)=>{
+  const data=await notes.findByIdAndUpdate(
+    { 
+      _id
+    },
+    { isTrashed:true},
+    { new:true}
+  );
+  return data;
+};
+
+//unarchive Note by _id
+export const unarchiveNote = async (_id,userID) => {
+  const data = await notes.findByIdAndUpdate(
+    {
+      _id:_id,
+      userID:userID
+    },
+    {
+      isArchive: false
+    },
+    {
+      new: false
+    }
+  );
+  return data;
+};
+
+//untrash Note by _id
+export const untrashNote = async (_id,userID) => {
+  const data = await notes.findByIdAndUpdate(
+      {
+        _id:_id,
+        userID:userID
+      },
+      {
+          isTrash: false
+      },
+      {
+          new: false
+      }
+  );
+  return data;
+};
+

@@ -98,6 +98,7 @@ export const deleteUser = async (req, res, next) => {
 export const userlogin = async (req, res, next) => {
   try {
     const data = await UserService.loginuser(req.body);
+    console.log("data---------- ",data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
